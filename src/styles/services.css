@@ -1,0 +1,453 @@
+.border-text {
+  border: 1px solid rgba(222, 232, 240, 0.5);
+  background-color: rgba(222, 232, 240, 0.5);
+  display: flex;
+  height: 300px;
+  width: 100%;
+  padding: 90px;
+  justify-content: center;
+}
+.container-title {
+  width: 40%;
+  font-size: 25px;
+  color: var(--color-accent);
+}
+.title-banniere {
+  margin-bottom: 10px;
+}
+.container-contenu {
+  width: 40%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 8%;
+  font-size: 20px;
+  color: var(--color-accent);
+}
+.paragraphe-banniere {
+  font-family: var(--font-nunito);
+}
+
+/* Pricing  */
+
+/* Section principale */
+.pricing-section {
+  position: relative;
+  padding: 120px 0 90px;
+  /* background-color: #ffffff; */
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Conteneur */
+.pricing-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* En-tête */
+.pricing-header {
+  text-align: center;
+  max-width: 510px;
+  margin: 0 auto 60px;
+}
+
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+.a-partir-de {
+  text-align: center;
+}
+
+.pricing-description {
+  color: #64748b;
+  font-family: var(--font-nunito);
+}
+
+/* Cartes */
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pricing-card {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 350px;
+  z-index: 10;
+}
+.first {
+  height: 660px;
+}
+.middle {
+  height: 840px;
+}
+.last {
+  height: 930px;
+}
+
+.pricing-plan {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-style: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  color: var(--color-text);
+  margin-bottom: 30px;
+}
+
+.pricing-price {
+  font-size: 2.625rem;
+  font-weight: bold;
+  color: rgba(232, 106, 80, 0.9);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pricing-text {
+  font-size: 1rem;
+  color: #64748b;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.pricing-features {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 2rem;
+  color: #64748b;
+  font-size: 1rem;
+  text-align: center;
+}
+.pricing-features p {
+  font-family: var(--font-nunito);
+}
+.description-pricing {
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+  font-family: var(--font-subtitle);
+  color: var(--color-text);
+  opacity: 0.5;
+}
+
+/* Boutons */
+.pricing-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pricing-button.outline {
+  border: 1px solid #e5e7eb;
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+.pricing-button.outline:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.pricing-button.filled {
+  background-color: #3056d3;
+  border: 1px solid #3056d3;
+  color: #ffffff;
+}
+
+.pricing-button.filled:hover {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+}
+
+/* A la carte */
+
+.categorie-pricing {
+  font-weight: 900;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 1.8s ease-out both;
+  animation: text-focus-in 1.8s ease-out both;
+}
+.general-carte {
+  margin-top: 150px;
+}
+.end-carte {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.button-end {
+  all: unset;
+  border: 1px solid rgba(232, 106, 80, 0.9);
+  border-radius: 5px;
+  padding: 10px;
+}
+.button-end:hover {
+  background-color: rgba(232, 106, 80, 0.9);
+  color: white;
+}
+.end-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+/* Features a-la-carte */
+
+.main-a-la-carte {
+  display: flex;
+  margin: 10px;
+  gap: 100px;
+  justify-content: center;
+}
+.border-carte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 60px;
+  background-color: #ffffff;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  width: 950px;
+  height: 300px;
+}
+.pictogramme-a-la-carte {
+  width: 200px;
+}
+.title-carte {
+  text-align: center;
+}
+.left-carte {
+  width: 200px;
+}
+.item-carte {
+  text-align: center;
+  margin-top: 5px;
+}
+.main-contente-alacarte {
+  text-align: center;
+}
+/* Responsive */
+/* TABLETTE (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .border-text {
+    flex-direction: column;
+    height: auto;
+    padding: 60px 40px;
+    text-align: center;
+  }
+
+  .container-title,
+  .container-contenu {
+    width: 100%;
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .container-contenu {
+    margin-top: 20px;
+  }
+
+  .pricing-title {
+    font-size: 2rem;
+  }
+
+  .pricing-description {
+    font-size: 15px;
+  }
+
+  .pricing-cards {
+    gap: 1.5rem;
+  }
+
+  .pricing-card {
+    padding: 40px 30px;
+    max-width: 320px;
+  }
+
+  .pricing-plan {
+    font-size: 18px;
+  }
+
+  .pricing-price {
+    font-size: 2.25rem;
+  }
+
+  .pricing-text,
+  .pricing-features {
+    font-size: 0.95rem;
+  }
+
+  .description-pricing {
+    font-size: 14px;
+  }
+  .main-a-la-carte {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .border-carte {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .left-carte {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pictogramme-a-la-carte {
+    width: 150px;
+  }
+
+  .title-carte {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .item-carte {
+    font-size: 14px;
+  }
+
+  .button-end {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* SMARTPHONE (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  .border-text {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .container-title,
+  .container-contenu {
+    width: 100%;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .container-contenu {
+    margin-top: 15px;
+  }
+
+  .pricing-title {
+    font-size: 1.8rem;
+  }
+
+  .pricing-description {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .pricing-card {
+    padding: 30px 20px;
+    max-width: 90%;
+  }
+
+  .pricing-plan {
+    font-size: 16px;
+  }
+
+  .pricing-price {
+    font-size: 2rem;
+  }
+
+  .pricing-text,
+  .pricing-features {
+    font-size: 0.9rem;
+  }
+
+  .description-pricing {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .pricing-button {
+    font-size: 0.95rem;
+  }
+
+  .main-a-la-carte {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 10px;
+  }
+
+  .border-carte {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
+    gap: 20px;
+  }
+
+  .pictogramme-a-la-carte {
+    width: 100px;
+  }
+
+  .title-carte {
+    font-size: 18px;
+  }
+
+  .item-carte {
+    font-size: 13px;
+  }
+
+  .button-end {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .end-carte {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .end-container {
+    margin-bottom: 30px;
+  }
+}

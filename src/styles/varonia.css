@@ -1,0 +1,83 @@
+.linkedIn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 100px;
+}
+.linkedin-logo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.resultat-linkedin {
+  width: 725px;
+  border: 1px solid rgba(128, 128, 128, 0.6);
+  background-color: rgba(128, 128, 128, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+.resultat-linkedin img {
+  width: 700px;
+}
+#logo-linkedin {
+  width: 100px;
+}
+.content-linkedin {
+  width: 150px;
+  text-align: center;
+}
+.content-linkedin p {
+  font-family: var(--font-nunito);
+}
+.linkedin-content {
+  margin-top: 80px;
+}
+.main-googleads-varonia {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.mockup-smartphone img {
+  width: 200px;
+}
+.first-column-paragraphe {
+  width: 500px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.first-column-paragraphe p {
+  font-family: var(--font-nunito);
+}
+.second-column img {
+  width: 550px;
+  border-radius: 10px;
+}
+.second-column p {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.title-acquisition {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.last-content-varonia {
+  display: flex;
+  justify-self: center;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#varonia-mockup-laptop {
+  width: 400px;
+  height: 350px;
+}
+.last-content-varonia img {
+  border-radius: 10px;
+  object-fit: cover;
+  width: 400px;
+  height: 420px;
+}

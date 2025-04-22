@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+  --color-primary: #fdfdfd;
+  --color-secondary: #caa9d9;
+  --color-accent: #e86a50;
+  --color-text: #1c2a4d;
+  --color-div: #dee8f0;
+
+  /* Type de police */
+
+  --font-primary: 'Lemon Milk', sans-serif;
+  --font-subtitle: 'Special Gothic Condensed One', sans-serif;
+  --font-nunito: 'Nunito Sans', sans-serif;
+  background-color: var(--color-primary);
+}
+
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('../../public/fonts/LEMONMILK-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  color: var(--color-text);
+}
+p {
+  font-family: var(--font-nunito);
+}
+
+/* Animation */
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Animation 2 */
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}

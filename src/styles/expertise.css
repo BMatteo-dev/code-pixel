@@ -1,0 +1,155 @@
+.services-section {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1a202c;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-family: var(--font-nunito);
+  font-size: 14px;
+  color: #555;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 36px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 0 auto 35px auto;
+}
+.picto {
+  width: 120px;
+}
+.service-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 14px;
+  font-family: var(--font-nunito);
+  color: #666;
+}
+/* TABLETTE (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .services-section {
+    padding: 60px 0;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 13px;
+    padding: 0 20px;
+  }
+
+  .services-grid {
+    gap: 25px;
+  }
+
+  .service-card {
+    padding: 30px 25px;
+    max-width: 300px;
+  }
+
+  .service-title {
+    font-size: 20px;
+  }
+
+  .service-description {
+    font-size: 13px;
+  }
+}
+
+/* SMARTPHONE (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  .services-section {
+    padding: 40px 0;
+  }
+
+  .section-header {
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 25px 20px;
+    max-width: 90%;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+
+  .service-description {
+    font-size: 12px;
+  }
+
+  .picto {
+    width: 90px;
+  }
+}
