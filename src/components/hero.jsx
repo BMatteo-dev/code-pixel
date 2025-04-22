@@ -16,7 +16,7 @@ export default function Hero() {
         </div>
         <div className="logo-hero">
           <div>
-            <img src="public/logo-vertical/Logo-principale-beige.png" alt="logo-code-et-pixel" />
+            <img src="/logo-vertical/Logo-principale-beige.png" alt="logo-code-et-pixel" />
           </div>
         </div>
       </div>
