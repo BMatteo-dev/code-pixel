@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="principal-hero">
       <video autoPlay loop muted className="video-bg">
-        <source src="public/hero-movie.mp4" type="video/mp4" />
+        <source src="/hero-movie.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas les vidéos HTML5.
       </video>
       <div className="image-hero-mobile"></div>
