@@ -18,7 +18,7 @@ export default function CafeNova() {
       <div className="gallery-cafe-nova">
         <img
           className="img-1"
-          src="public/cafe-nova/identité_visuelle_cafe_nova.webp"
+          src="/cafe-nova/identité_visuelle_cafe_nova.webp"
           alt="Identité visuelle et packaging du Café Nova avec grains de café"
         ></img>
         <img
@@ -28,7 +28,7 @@ export default function CafeNova() {
         ></img>
         <img
           className="img-3"
-          src="public/cafe-nova/packaging_cafe_nova.jpeg"
+          src="/cafe-nova/packaging_cafe_nova.jpeg"
           alt="Sac à emporter blanc Café Nova posé sur un comptoir en marbre"
         ></img>
         <img

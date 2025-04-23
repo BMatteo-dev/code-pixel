@@ -69,7 +69,7 @@ export default function Crescere() {
       <div className="crea-identite">
         <img
           className="mockup-crescere last-img"
-          src="public/crescere/crescere-banniere-linkedin.webp"
+          src="/crescere/crescere-banniere-linkedin.webp"
           alt="banniere-linkedin-exemple"
         />
       </div>

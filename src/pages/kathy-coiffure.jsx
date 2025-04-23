@@ -41,7 +41,7 @@ export default function KathyCoiffure() {
           </p>
         </div>
       </div>
-      <div className="main-kathy-coiffure">
+      <div className="main-kathy-coiffure-2">
         <div>
           <img
             src="/kathy/Presentation.webp"

@@ -37,7 +37,7 @@ export default function Mb() {
         ></img>
         <img
           className="img-5-mb"
-          src="public/mb/cle_usb_mbdev.webp"
+          src="/mb/cle_usb_mbdev.webp"
           alt="Clé USB personnalisée MBDev pour développeur back-end"
         ></img>
       </div>

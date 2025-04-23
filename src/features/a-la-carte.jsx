@@ -8,7 +8,9 @@ export default function ALaCarte({ title, source, alt, contenus }) {
           <img className="pictogramme-a-la-carte" src={source} alt={alt}></img>
           <h2 className="title-carte">{title}</h2>
         </div>
-        <div className="border-carte">{contenus}</div>
+        <div className="border-carte">
+          <div className="ala-carte-contenus">{contenus}</div>
+        </div>
       </div>
     </>
   );

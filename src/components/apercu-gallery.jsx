@@ -14,7 +14,7 @@ export default function ApercuGallery() {
                 titleProject="Varonia systems"
                 image="/gallerie/varonia-projet.webp"
                 textAlt="mur-de-brique-avec-logo-varonia-system"
-                imageSize="380px"
+                imageSize="clamp(220px, 30vw, 400px)"
                 imageHeight="450px"
                 description="Marketing d'acquisition & Réseaux sociaux"
               />
@@ -26,7 +26,8 @@ export default function ApercuGallery() {
                 titleProject="Kathy coiffure"
                 image="/gallerie/kathy-enseigne.webp"
                 textAlt="immeuble-avec-enseigne-logo-kathy"
-                imageSize="300px"
+                imageSize="clamp(200px, 25vw, 380px)"
+                imageHeight="450px"
                 description="Identité visuelle | Site Web | Réseaux sociaux"
               />
             </Link>
@@ -37,7 +38,7 @@ export default function ApercuGallery() {
                 titleProject="La confidence"
                 image="/gallerie/confidence-projet.webp"
                 textAlt="vitrine-de-restaurant-avec-logo-confidence"
-                imageSize="380px"
+                imageSize="clamp(220px, 30vw, 400px)"
                 imageHeight="450px"
                 description="identité visuelle & print"
               />

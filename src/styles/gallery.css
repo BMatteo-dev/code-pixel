@@ -16,7 +16,9 @@
 .flex-mode {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .card-bottom {
   margin-top: 130px;

@@ -137,7 +137,7 @@ export default function Pricing() {
           ]}
         />
         <ALaCarte
-          title="Developpement web"
+          title="Developpement"
           source="/pictogrammes/DevWeb-Orange.png"
           alt="logo-developpement web"
           contenus={[
