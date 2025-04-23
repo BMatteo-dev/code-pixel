@@ -18,18 +18,36 @@ export default function PolitiqueConfidentialite() {
         <div className="content-mention-legale">
           <p>Nous pouvons collecter les informations suivantes via notre site :</p>
           <ul className="list-mention-legale">
-            <li>Prénom et nom</li>
-            <li>Adresse e-mail</li>
-            <li>Numéro de téléphone</li>
-            <li>Nom de société (le cas échéant)</li>
-            <li>Adresse IP</li>
-            <li>Données de navigation (via cookies ou outils d’analyse)</li>
+            <li>
+              <p>Prénom et nom</p>
+            </li>
+            <li>
+              <p>Adresse e-mail</p>
+            </li>
+            <li>
+              <p>Numéro de téléphone</p>
+            </li>
+            <li>
+              <p>Nom de société (le cas échéant)</p>
+            </li>
+            <li>
+              <p>Adresse IP</p>
+            </li>
+            <li>
+              <p>Données de navigation (via cookies ou outils d’analyse)</p>
+            </li>
           </ul>
           <p>Ces données sont collectées lorsque vous :</p>
           <ul className="list-mention-legale">
-            <li>Remplissez un formulaire de contact ou de demande de devis</li>
-            <li>Naviguez sur notre site</li>
-            <li>Cliquez sur un lien ou interagissez avec un contenu</li>
+            <li>
+              <p>Remplissez un formulaire de contact ou de demande de devis</p>
+            </li>
+            <li>
+              <p>Naviguez sur notre site</p>
+            </li>
+            <li>
+              <p>Cliquez sur un lien ou interagissez avec un contenu</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -37,11 +55,21 @@ export default function PolitiqueConfidentialite() {
         <h2 className="subtitle-mention-legale">3/ Finalités de la collecte</h2>
         <p>Les données sont collectées pour :</p>
         <ul className="list-mention-legale">
-          <li>Répondre à vos demandes de contact ou devis</li>
-          <li>Vous fournir les services demandés</li>
-          <li>Améliorer l’expérience utilisateur et le contenu du site</li>
-          <li>Analyser le trafic du site via des outils comme Google Analytics</li>
-          <li>Gérer la relation client</li>
+          <li>
+            <p>Répondre à vos demandes de contact ou devis</p>
+          </li>
+          <li>
+            <p>Vous fournir les services demandés</p>
+          </li>
+          <li>
+            <p>Améliorer l’expérience utilisateur et le contenu du site</p>
+          </li>
+          <li>
+            <p>Analyser le trafic du site via des outils comme Google Analytics</p>
+          </li>
+          <li>
+            <p>Gérer la relation client</p>
+          </li>
         </ul>
       </div>
       <div>
@@ -63,9 +91,15 @@ export default function PolitiqueConfidentialite() {
         <h2 className="subtitle-mention-legale">6/ Vos droits</h2>
         <p>Conformément à la réglementation en vigueur, vous disposez des droits suivants :</p>
         <ul className="list-mention-legale">
-          <li>Droit d’accès, de rectification, de suppression</li>
-          <li>Droit d’opposition ou de limitation du traitement</li>
-          <li>Droit à la portabilité des données</li>
+          <li>
+            <p>Droit d’accès, de rectification, de suppression</p>
+          </li>
+          <li>
+            <p>Droit d’opposition ou de limitation du traitement</p>
+          </li>
+          <li>
+            <p>Droit à la portabilité des données</p>
+          </li>
         </ul>
         <p>
           Pour exercer ces droits, vous pouvez nous contacter à l’adresse suivante : [Adresse mail]
@@ -90,7 +124,7 @@ export default function PolitiqueConfidentialite() {
         <h2 className="subtitle-mention-legale">9/ Contact</h2>
         <p>
           Pour toute question sur cette politique ou l’utilisation de vos données :
-          [hello@codeetpixel.com]
+          contact.codeetpixel@gmail.com
         </p>
       </div>
     </div>

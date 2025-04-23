@@ -105,7 +105,7 @@ a {
   margin-bottom: 4rem;
 }
 .title-hero {
-  margin-top: 120px;
+  margin-top: clamp(2rem, 10vh, 7.5rem);
 }
 .contour-text:nth-child(1) {
   animation-delay: 0s;

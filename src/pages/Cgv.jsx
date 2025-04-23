@@ -18,12 +18,24 @@ export default function Cgv() {
         <div className="content-mention-legale">
           <p>Code & Pixel propose notamment :</p>
           <ul className="list-mention-legale">
-            <li>La création et refonte de sites web</li>
-            <li>Le développement de fonctionnalités personnalisées</li>
-            <li>Le design graphique (UI/UX, identité visuelle, etc.)</li>
-            <li>Le référencement naturel (SEO)</li>
-            <li>La gestion de campagnes publicitaires (Google Ads)</li>
-            <li>Le community management</li>
+            <li>
+              <p>La création et refonte de sites web</p>
+            </li>
+            <li>
+              <p>Le développement de fonctionnalités personnalisées</p>
+            </li>
+            <li>
+              <p>Le design graphique (UI/UX, identité visuelle, etc.)</p>
+            </li>
+            <li>
+              <p>Le référencement naturel (SEO)</p>
+            </li>
+            <li>
+              <p>La gestion de campagnes publicitaires (Google Ads)</p>
+            </li>
+            <li>
+              <p>Le community management</p>
+            </li>
           </ul>
           <p>Toute prestation fait l’objet d’un devis préalable accepté par le Client.</p>
         </div>

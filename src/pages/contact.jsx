@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="title-4">Email</h4>
-                  <p>info@yourdomain.com</p>
+                  <p>contact.codeetpixel@gmail.com</p>
                 </div>
               </div>
               <div className="info-block">
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <FaLinkedinIn />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/tonprofil"
+                    href="https://www.instagram.com/codeetpixel/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

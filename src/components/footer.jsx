@@ -54,7 +54,7 @@ export default function Footer() {
               <SiInstagram />
             </a>
             <a
-              href="https://www.linkedin.com/in/tonprofil"
+              href="https://www.instagram.com/codeetpixel/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -47,7 +47,11 @@ export default function Navbar() {
             >
               <FaLinkedinIn />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/codeetpixel/#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <SiInstagram />
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">

@@ -29,9 +29,11 @@ export default function Pricing() {
                 <p> Référencement naturel de base (SEO) pour être visible sur Google</p>
                 <p>Accompagnement personnalisé pendant 3 mois : conseils, suivi, évolutions</p>
               </div>
-              <a href="#" className="pricing-button outline">
-                Selectionner
-              </a>
+              <Link to="/contact">
+                <a href="#" className="pricing-button outline">
+                  Selectionner
+                </a>
+              </Link>
               <p className="description-pricing">
                 Idéal pour les entrepreneurs qui lancent leur activité ou ont besoin d’une présence
                 web claire et impactante.
@@ -51,9 +53,11 @@ export default function Pricing() {
                 <p> Maintenance + modifications incluses pendant 6 mois (forfait d’heures)</p>
                 <p> Stratégie réseaux sociaux + création et diffusion de posts pendant 1 mois</p>
               </div>
-              <a href="#" className="pricing-button outline">
-                Selectionner
-              </a>
+              <Link to="/contact">
+                <a href="#" className="pricing-button outline">
+                  Selectionner
+                </a>
+              </Link>
               <p className="description-pricing">
                 Parfait pour les entreprises en développement qui souhaitent structurer leur
                 communication digitale et affirmer leur image.
@@ -82,9 +86,11 @@ export default function Pricing() {
                 </p>
                 <p> Reporting de performance mensuel</p>
               </div>
-              <a href="#" className="pricing-button outline">
-                Selectionner
-              </a>
+              <Link to="/contact">
+                <a href="#" className="pricing-button outline">
+                  Selectionner
+                </a>
+              </Link>
               <p className="description-pricing">
                 Le choix des marques ambitieuses qui veulent booster leur visibilité et leurs
                 conversions.

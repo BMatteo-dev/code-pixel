@@ -10,7 +10,7 @@ export default function MentionLegale() {
         <div className="content-mention-legale">
           <p>Le site Code & Pixel est édité par : Matteo Bontemps et Alicia Palmeira</p>
           <p>Forme juridique : Auto-entrepreneur </p>
-          <p>Adresse email : m.bontemps.14@gmail.com / aliciaplmra@gmail.com</p>
+          <p>Adresse email : contact.codeetpixel@gmail.com</p>
           <p>Responsable de publication : Alicia Palmeira / Matteo Bontemps</p>
         </div>
       </div>
@@ -26,12 +26,24 @@ export default function MentionLegale() {
       <div>
         <h2 className="subtitle-mention-legale">3/ Activité</h2>
         <ul className="list-mention-legale">
-          <li>Création de sites web vitrine, e-commerce et sur-mesure</li>
-          <li>Développement de fonctionnalités web personnalisées</li>
-          <li>Community management (gestion de réseaux sociaux)</li>
-          <li>Design graphique (identité visuelle, UI/UX)</li>
-          <li>Référencement naturel (SEO)</li>
-          <li>Publicité en ligne (Google Ads, Meta Ads)</li>
+          <li>
+            <p>Création de sites web vitrine, e-commerce et sur-mesure</p>
+          </li>
+          <li>
+            <p>Développement de fonctionnalités web personnalisées</p>
+          </li>
+          <li>
+            <p>Community management (gestion de réseaux sociaux)</p>
+          </li>
+          <li>
+            <p>Design graphique (identité visuelle, UI/UX)</p>
+          </li>
+          <li>
+            <p>Référencement naturel (SEO)</p>
+          </li>
+          <li>
+            <p>Publicité en ligne (Google Ads, Meta Ads)</p>
+          </li>
         </ul>
       </div>
       <div>
