@@ -173,6 +173,16 @@
   transform: scale(1.2);
   cursor: pointer;
 }
+.gallery-delete {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+.delete-image {
+  cursor: pointer;
+}
 
 /* TABLETTE (max-width: 1024px) */
 @media screen and (max-width: 1024px) {
