@@ -13,15 +13,13 @@ import Mb from './pages/mb';
 import MentionLegale from './pages/mention-legale';
 import PolitiqueConfidentialite from './pages/politique-confidentialite';
 import Cgv from './pages/Cgv';
-import Login from './pages/login';
 import ScrollToTop from './features/scroll-top';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer';
-import AuthProvider from './context/auth-context.jsx';
 
 function App() {
   return (
-    <AuthProvider>
+    <div>
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -39,11 +37,10 @@ function App() {
           <Route path="/mentions-légales" element={<MentionLegale />} />
           <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
           <Route path="/conditions-generales-de-vente" element={<Cgv />} />
-          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </Router>
-    </AuthProvider>
+    </div>
   );
 }
 

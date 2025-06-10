@@ -1,37 +1,55 @@
 import '../styles/gallery.css';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 export default function Gallery() {
-  const [projects, setProjects] = useState([]);
-  async function GetProject() {
-    try {
-      const response = await fetch('http://localhost:3000/api/project');
-      const data = await response.json();
-      console.log(data);
-      setProjects(data);
-    } catch {
-      console.log('get projet failure !');
-    }
-  }
-
-  useEffect(() => {
-    GetProject();
-  }, []);
+  const images = [
+    {
+      src: '/gallerie/kathy-enseigne.webp',
+      titleProject: 'Kathy coiffure',
+      description: 'Identité visuelle | Site Web | Réseaux sociaux',
+      link: '/kathy-coiffure',
+    },
+    {
+      src: '/gallerie/varonia-projet.webp',
+      titleProject: 'Varonia Systeme',
+      description: 'Marketing d’acquisition & Réseaux sociaux',
+      link: '/varonia',
+    },
+    {
+      src: '/gallerie/confidence-projet.webp',
+      titleProject: 'Le Confidence',
+      description: 'Identité visuelle & Print',
+      link: '/confidence',
+    },
+    {
+      src: '/gallerie/crescer.webp',
+      titleProject: 'Crescere',
+      description: 'Identité visuelle | Print | Réseaux sociaux',
+      link: '/crescere',
+    },
+    {
+      src: '/gallerie/cafe-nova.webp',
+      titleProject: 'Cafe Nova',
+      description: 'Identité visuelle',
+      link: '/cafe-nova',
+    },
+    {
+      src: '/gallerie/MB.webp',
+      titleProject: 'MB',
+      description: 'Identité visuelle',
+      link: '/mb',
+    },
+  ];
   return (
     <>
       <section className="gallery-section">
         <div className="gallery-container">
           <div className="gallery-grid">
-            {projects.map((proj, index) => (
+            {images.map((src, index) => (
               <div className="gallery-item" key={index}>
-                <Link to={proj.link}>
-                  <img
-                    src={`/backend/images/${proj.image}`}
-                    alt={`gallery image ${index + 1}`}
-                    className="gallery-image"
-                  />
-                  <h3 className="description-project">{proj.titre}</h3>
+                <Link to={src.link}>
+                  <img src={src.src} alt={`gallery image ${index + 1}`} className="gallery-image" />
+                  <h3 className="description-project">{src.titleProject}</h3>
                 </Link>
               </div>
             ))}
